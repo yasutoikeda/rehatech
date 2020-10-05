@@ -46,14 +46,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     window._pt_lt = new Date().getTime();
     window._pt_sp_2 = [];
     _pt_sp_2.push('setAccount,3e85bade');
+    _pt_sp_2.push('setCrossDomainLink,allManual');
     var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     (function() {
-        var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
-        atag.src = _protocol + 'js.ptengine.jp/pta.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(atag, s);
+      var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+      atag.src = _protocol + 'js.ptengine.jp/pta.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(atag, s);
     })();
-</script>
+  </script>
+  <!-- End PTエンジン -->
 
         
 <div class="hidden">
@@ -64,16 +66,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="./images/logo.svg" alt="リハデミーのロゴ">
     </span>
     <ul id="nav_list" class="nav_list">
-        <li class="nav_item"><a href="#what" class="fz16_nav">リハデミーとは</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#skill">リハデミーを受けた未来</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#great">9つのすごい</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#voice">参加者の声</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#contents">リハデミー内容紹介</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#teacher">講師紹介</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#service">価格比較</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#sns">SNS</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#passion">想い</a></li>
-        <li class="nav_item"><a class="fz16_nav" href="#faq">FAQ</a></li>
+        <li class="nav_item"><a onclick="pt_domain" href="#what" class="fz16_nav">リハデミーとは</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#skill">リハデミーを受けた未来</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#great">9つのすごい</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#voice">参加者の声</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#contents">リハデミー内容紹介</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#teacher">講師紹介</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#service">価格比較</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#sns">SNS</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#passion">想い</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#faq">FAQ</a></li>
     </ul>
     <div class="nav_hamburger">
         <div class="nav_hamburger-wrap">
@@ -95,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="header_under">
         <!-- 遷移先ボタン -->
-        <div class="header_btn"><a href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign"><img class="header_btn-white" src="./images/btn-w.png" alt="登録ボタン"></a></div>
+        <div class="header_btn"><a onclick="pt_domain" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign"><img class="header_btn-white" src="./images/btn-w.png" alt="登録ボタン"></a></div>
     </div>
 </header>
 
@@ -570,7 +572,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </li>
     </ul>
     <!-- 遷移先ボタン -->
-    <a class="great_btn" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign">
+    <a onclick="pt_domain" class="great_btn" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign">
         <img src="./images/btn.png" alt="">
     </a>
 </section>
@@ -940,7 +942,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2 class="environment_title orange_b fz24_env">いつでもどこでも学べる環境。<br>リハデミーはあなたの学びを応援します。</h2>
         <div class="environment_text fz18_env">エキスパートである講師陣の豊富な動画やコンテンツ、ZOOM個別質問により、あなたのセラピストとしての市場価値を上げるお手伝いをさせてください。</div>
         <!-- 遷移先ボタン -->
-        <a class="environment_btn" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign"><img src="./images/btn.png" alt=""></a>
+        <a onclick="pt_domain" class="environment_btn" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign"><img src="./images/btn.png" alt=""></a>
     </div>
 </section>
 
@@ -986,7 +988,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="passion" class="passion decoration">
     <div class="passion_bg"><img class="block" src="./images/passion_bg.jpg" alt=""></div>`
     <h2 class="passion_title title_wrap"><span class="title">立ち上げた想い</span></h2>
-    <article class="passion_message">
+    <a onclick="pt_domain"rticle class="passion_message">
         <div class="passion_text fz16">
             <h1 class="passion_subtitle orange_b fz25">リハビリテーションに関わる全ての人を幸せにする</h1>
             <p class="passion_text passion_mb">リハデミーを立ち上げるきっかけとなった出来事が２つあります。</p>
@@ -998,7 +1000,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <span class="passion_sign"><img src="./images/okita_sign.png" alt="大北潤社長のサイン"></span>
         </div>
         <span class="passion_image"><img src="./images/passion.png" alt="研修の風景" class="block"></span>
-    </article>
+    </a>
 
     <div class="passion_description">
         <div class="passion_president"><img class="block" src="./images/okita.jpg" alt="大北潤社長のプロフィール写真"></div>
@@ -1063,42 +1065,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li class="together_item fz16"><img src="./images/check_icon.png" class="together_check" alt="チェックアイコン">マルチデバイス対応でいつでもどこでも学習できます</li>
         </ul>
         <!-- 遷移先ボタン -->
-        <a href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign" class="together_btn"><img class="block" src="./images/btn.png" alt="申し込みリンク"></a>
+        <a onclick="pt_domain" href="https://rehademy.com/register?utm_source=google&utm_medium=cpc&utm_campaign=2020_august_campaign" class="together_btn"><img class="block" src="./images/btn.png" alt="申し込みリンク"></a>
     </div>
 </section>
 
 <footer class="footer">
     <!-- <div class="footer_wrap">
-        <a href="https://rehademy.com/" class="footer_log"><img class="block" src="./images/logo.png" alt="リハデミーのロゴ"></a>
+        <a onclick="pt_domain" href="https://rehademy.com/" class="footer_log"><img class="block" src="./images/logo.png" alt="リハデミーのロゴ"></a>
         <ul class="footer_list">
             <li class="footer_item">
                 <h3 class="footer_nav-title fz18">リハデミーについて
                 </h3>
                 <ul class="footer_nav-list">
-                    <li class="footer_nav-item fz14"><a href="https://rehatech-links.com/corporate/">リハデミーとは</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/teacher">講師紹介</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehatech-links.com/seminar/">講習会一覧</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehatech-links.com/corporate/">リハデミーとは</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/teacher">講師紹介</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehatech-links.com/seminar/">講習会一覧</a></li>
                 </ul>
             </li>
             <li class="footer_item">
                 <h3 class="footer_nav-title fz18 footer_border">情報一覧</h3>
                 <ul class="footer_nav-list">
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/video">動画</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/news">トピックス</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/theses">論文紹介</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/blog">講師ブログ</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/review-video">復習動画</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/faqs">質問共有サービス</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/video">動画</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/news">トピックス</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/theses">論文紹介</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/blog">講師ブログ</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/review-video">復習動画</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/faqs">質問共有サービス</a></li>
                 </ul>
             </li>
             <li class="footer_item">
                 <h3 class="footer_nav-title fz18 footer_border">運営・お問い合わせ・規約</h3>
                 <ul class="footer_nav-list">
-                    <li class="footer_nav-item fz14"><a href="https://rehatech-links.com/corporate/">運営会社</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehatech-links.com/contact/">お問い合わせ</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/privacy-policy">利用規約</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/requirement">ご利用環境及びよくある質問</a></li>
-                    <li class="footer_nav-item fz14"><a href="https://rehademy.com/specified-commercial-transactions">特定商取引法に基づく表記</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehatech-links.com/corporate/">運営会社</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehatech-links.com/contact/">お問い合わせ</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/privacy-policy">利用規約</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/requirement">ご利用環境及びよくある質問</a></li>
+                    <li class="footer_nav-item fz14"><a onclick="pt_domain" href="https://rehademy.com/specified-commercial-transactions">特定商取引法に基づく表記</a></li>
                 </ul>
             </li>
         </ul>

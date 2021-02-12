@@ -35,6 +35,11 @@
     <title>リハデミー</title>
     <link rel="shortcut icon" href="./favicon.ico">
     <link href="app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Facebook Pixel Code -->
     <!-- <script>
     !function(f,b,e,v,n,t,s)
@@ -102,7 +107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <ul id="nav_list" class="nav_list">
         <li class="nav_item"><a onclick="pt_domain" href="#what" class="fz16_nav">リハデミーとは</a></li>
         <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#skill">リハデミーを受けた未来</a></li>
-        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#great">9つのすごい</a></li>
+        <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#great">6つのすごい</a></li>
         <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#voice">参加者の声</a></li>
         <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#contents">リハデミー内容紹介</a></li>
         <li class="nav_item"><a onclick="pt_domain" class="fz16_nav" href="#teacher">講師紹介</a></li>
@@ -545,8 +550,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <section id="great" class="great  component">
-    <h2 class="great_title title_wrap"><span class="title">リハデミー9つのここがすごい</span></h2>
+    <h2 class="great_title title_wrap"><span class="title">リハデミー6つのここがすごい</span></h2>
     <ul class="great_list">
+        <li class="great_item">
+            <div class="great_item_wrap">
+                <img src="./images/icon_9.png" alt="">
+            </div>
+            <p class="orange fz18">無料お試し期間あり！</p>
+        </li>
         <li class="great_item">
             <div class="great_item_wrap">
                 <img src="./images/icon_1.png" alt="">
@@ -559,30 +570,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <p class="orange fz18">動画650時間以上 記事1000以上！</p>
         </li>
-        <li class="great_item">
+        <!-- <li class="great_item">
             <div class="great_item_wrap">
                 <img src="./images/icon_3.png" alt="">
             </div>
             <p class="orange fz18">驚異の満足度96.9%！</p>
-        </li>
-        <li class="great_item">
+        </li> -->
+        <!-- <li class="great_item">
             <div class="great_item_wrap">
                 <img src="./images/icon_4.png" alt="">
             </div>
             <p class="orange fz18">いつでも、どこでも学習可能！</p>
-        </li>
-        <li class="great_item">
+        </li> -->
+        <!-- <li class="great_item">
             <div class="great_item_wrap">
                 <img src="./images/icon_5.png" alt="">
             </div>
             <p class="orange fz18">講習会の動画で復習可能！</p>
-        </li>
-        <li class="great_item">
-            <div class="great_item_wrap">
-                <img src="./images/icon_6.png" alt="">
-            </div>
-            <p class="orange fz18">講師陣が豪華！</p>
-        </li>
+        </li> -->
         <li class="great_item">
             <div class="great_item_wrap">
                 <img src="./images/icon_7.png" alt="">
@@ -597,9 +602,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </li>
         <li class="great_item">
             <div class="great_item_wrap">
-                <img src="./images/icon_9.png" alt="">
+                <img src="./images/icon_6.png" alt="">
             </div>
-            <p class="orange fz18">無料お試し期間あり！</p>
+            <p class="orange fz18">講師陣が豪華！</p>
         </li>
     </ul>
     <!-- 遷移先ボタン -->
@@ -620,7 +625,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </picture>
             </div>
             <p class="orange_b">どんな現場でも自分が即戦力になれる！</p>
-            <p>実技も含めた動画や、第一線で活躍する講師の講義で最新の情報を得ることが出来ます。高水準の臨床力、研究力により活躍できる人材に。</p>
+            <!-- <p>実技も含めた動画や、第一線で活躍する講師の講義で最新の情報を得ることが出来ます。高水準の臨床力、研究力により活躍できる人材に。</p> -->
         </li> 
         <li class="skill_item">
             <div class="skill_item_wrap">
@@ -630,7 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </picture>
             </div>
             <p class="orange_b">高い効率で圧倒的な知識が身につく</p>
-            <p>時間や場所を問わず、リハビリテーション業界の情報、知識を効率的に得ることが出来ます。倍速再生も可能なため、効率よく学習できます。</p>
+            <!-- <p>時間や場所を問わず、リハビリテーション業界の情報、知識を効率的に得ることが出来ます。倍速再生も可能なため、効率よく学習できます。</p> -->
         </li>
         <li class="skill_item">
             <div class="skill_item_wrap">
@@ -640,7 +645,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </picture>
             </div>
             <p class="orange_b">講師が日々の不安や悩みをZOOMで解消</p>
-            <p>悩みや不安を一人で解消することは難しいです。リハデミーでは様々な講師に直接質問ができる、ZOOMでの質問サービスを提供します。</p>
+            <!-- <p>悩みや不安を一人で解消することは難しいです。リハデミーでは様々な講師に直接質問ができる、ZOOMでの質問サービスを提供します。</p> -->
         </li>
         <li class="skill_item">
             <div class="skill_item_wrap">
@@ -650,7 +655,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </picture>
             </div>
             <p class="orange_b">患者様に喜んでもらえるセラピストへ</p>
-            <p>様々なパターンに対応したコンテンツがあります。患者様はそれぞれ症状が異なるので、その経験が患者様をきっと笑顔にしてくれるでしょう。</p>
+            <!-- <p>様々なパターンに対応したコンテンツがあります。患者様はそれぞれ症状が異なるので、その経験が患者様をきっと笑顔にしてくれるでしょう。</p> -->
         </li>
     </ul>
     <img src="./images/rect.svg" alt="デコレーション" class="skill_deco1">
@@ -661,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="voice" class="voice">
     <div class="voice_bg"><img class="block" src="./images/voice_title_bg.png" alt=""></div>
     <h2 class="voice_title title_wrap"><span class="title">参加者の声</span></h2>
-    <ul class="voice_list">
+    <!-- <ul class="voice_list">
         <li class="voice_item voice_item1">
                 <div class="voice_img voice_img1">
                     <img class="block" src="./images/voice_1.jpg" alt="">
@@ -701,7 +706,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
         </li>
 
-    </ul>
+    </ul> -->
+    
+    <div class="voice_slider_pc">
+        <div class="voice_slider_pc-container">
+            <div class="swiper-container4">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide voice_pc_item">
+                            <div class="voice_pc_img">
+                                <img class="block" src="./images/voice_1.jpg" alt="">
+                            </div>
+                            <div class="voice_pc_text">
+                                <h3>
+                                    豊富な動画やコラム、論文が場所を問わず学べます！
+                                    患者様からの「ありがとう」が増えました！
+                                </h3>
+                                <p>
+                                    もっと患者様の役に立ちたいという想いでリハデミーを使い始めました。<br class="br_sp">
+                                    <span>毎日、リハデミーの動画視聴を楽しみに見ています。有名講師の方々の講義が気軽に視聴でき、コンテンツも多く臨床に役立つ知識を地方にいながら得られるので大変重宝しています。日々の業務がある中で、なかなか学習の時間が確保できない状況でしたが、PCだけでなくスマホやタブレットで見ることができるので、ちょっとした合間にも学習出来ます。しかも足を運ばなければならないセミナーとは違い動画形式なので、知識が深まるまで何度も復習することができます。確かな根拠に基づいた知見をつけたい、様々な人に自分の技術を発信しながら、患者様に求められるよう成長したい方にはぜひおすすめします！(36歳：理学療法士)</span>
+                                </p>
+                                <!-- <div class="voice_btn"></div> -->
+                            </div>
+            
+                    </li>
+                    <li class="swiper-slide voice_pc_item">
+                            <div class="voice_pc_img">
+                                <img class="block" src="./images/voice_2.jpg" alt="">
+                            </div>
+                            <div class="voice_pc_text">
+                                <h3>育児や家事をしていても、効率よく学習することができます！</h3>
+                                <p>
+                                    日々の現場では管理業務もあり、臨床の振り返りが疎かになってしまうことがありました。<br class="br_sp">
+                                    <span>また、子育て中ということもあり、睡眠時間を削って学習時間の確保を行っておりましたが、そんななかリハデミーにて、倍速再生なども用いて、視覚的に効率よく学習を行えるようになって、患者様に新たな視点で向き合えるようになりました。また、何度も動画を復習できたり、実技での講義や有名な方の文献も参照できるため、院内勉強会や職場の後輩にもその知識を共有できるようになりました。
+                                    患者様は誰ひとりとして同じ人はいないので、様々な症状のパターンなどに対応したコンテンツは他にはないリハデミーならではですね！(29歳：作業療法士)</span>
+                                </p>
+                                <!-- <div class="voice_btn"></div> -->
+                            </div>
+            
+                    </li>
+                    <li class="swiper-slide voice_pc_item">
+                        
+                            <div class="voice_pc_img">
+                                <img class="block" src="./images/voice_3.jpg" alt="">
+                            </div>
+                            
+                            <div class="voice_pc_text">
+                                <h3>日々の臨床疑問に対する解決窓口となるツールです。</h3>
+                                <p>
+                                    社会人1年目です。毎日新しい知識や経験が得られる反面、数多くの疑問も生まれます。<br class="br_sp">
+                                <span>給料や忙しさの兼ね合いから勉強会へは多くは参加できていません。また新人だと講師の方の話すスピードに対して、理解が追いつかないこともありました。そこでリハデミーに出会い、日々の疑問を解決できるようになりました。安価にも関わらず、勉強会と同等の知識を得られるのはとてもお得だと感じています。またブログでは、看護師・保健師さんが頚損により麻痺が生じてしまってから社会復帰までの葛藤などの実体験の記録が載せられていて、患者サイドに立つということはどういうことなのかを考えさせられました。日々の疑問をすぐに解決したいという私と同じような方に、ぜひリハデミーを活用して頂きたいです！(26歳：理学療法士)</span>
+                                </p>
+                                <!-- <div class="voice_btn"></div> -->
+                            </div>
+                    </li>
+            
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-button-prev3 swiper-custom-button fz20">
+            <
+        </div>
+        <div class="swiper-button-next3 swiper-custom-button fz20">
+            >
+        </div>
+    </div>
     
     <div class="voice_slider">
         <div class="voice_slider-container">
@@ -756,7 +824,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="contents" class="contents  component decoration">
     <h2 class="contents_title title_wrap"><span class="title">リハデミー内容を一部ご紹介！</span></h2>
     <div class="contents_subtitle orange_b">ラインナップ</div>
-    <div class="contents_pop fz20"><span class="br_pc contents_pop_deco">\ </span>動画650時間以上！<br class="br_sp"><span class="br_sp contents_pop_deco">\</span>トピックス1000記事以上！論文毎日更新！/</div>
+    <div class="contents_pop fz20"><span class="br_pc contents_pop_deco" style="font-family: Arial">\ </span>動画650時間以上！<br class="br_sp"><span class="br_sp contents_pop_deco" style="font-family: Arial">\</span>トピックス1000記事以上！論文毎日更新！<span style="font-family: Arial">/</span></div>
     <div class="contents_slider">
         <div class="contents_slider-container">
             <div class="swiper-container2">
@@ -1048,7 +1116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="price">
     <div class="price_pop fz25">月額2,980円でここまでできる！</div>
     <div class="price_box">
-        <p class="price_message fz25">\  日々コンテンツ更新中 /</p>
+        <p class="price_message fz25"><span style="font-family: Arial">\</span>  日々コンテンツ更新中 <span style="font-family: Arial">/</span></p>
         <ul class="price_list">
             <li class="price_item fz20"><span class="orange_b marker fz24">動画650時間</span>以上が<span class="orange_b marker fz24">見放題</span></li>
             <li class="price_item fz20"><span class="orange_b marker fz24">トピックス1000記事</span>以上が<span class="orange_b marker fz24">見放題</span></li>
@@ -1058,10 +1126,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </section>
 
-<section id="sns" class="sns component">
+<!-- <section id="sns" class="sns component">
     <h2 class="sns_title title_wrap"><span class="title">あなたも全国の仲間と一緒に<br>エキスパートを目指しませんか？</span></h2>
     <div class="sns_image"><img class="block" src="./images/together.png" alt=""></div>
-</section>
+</section> -->
 
 
 
@@ -1188,5 +1256,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <small class="footer_copy">Copyright©︎ 2021 Rehatech Links Inc, All right reserved.</small>
 </footer>
 </div>
-<script src="app.js"></script></body>
+<script src="app.js"></script>
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+  
+    const voice_Swiper = new Swiper('.swiper-container4', {
+        navigation: {
+            nextEl: '.swiper-button-next3',
+            prevEl: '.swiper-button-prev3',
+        },
+        spaceBetween: 100,
+        loop: true,
+        slidesPerView: 1
+    });
+  </script>
+</body>
 </html>  
